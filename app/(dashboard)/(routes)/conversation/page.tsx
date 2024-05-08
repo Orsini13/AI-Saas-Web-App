@@ -7,7 +7,7 @@ import { useForm } from "react-hook-form";
 import { formSchema } from "./constants";
 
 const ConversationPage = () => {
-    const form = useForm({
+    const form = useForm ({
         defaultValues:{
             prompt: " "
         }        
